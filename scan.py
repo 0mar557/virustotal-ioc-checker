@@ -13,7 +13,7 @@ BASE_URL = "https://www.virustotal.com/api/v3/ip_addresses/"
 headers = {
     "x-apikey": API_KEY
 }
-
+print(f"Made By Omar El nmrawy")
 # On lit les lignes du fichier iocs.txt (les IPs ou URLs à analyser)
 with open("iocs.txt", "r") as f:
     lines = [line.strip() for line in f.readlines()]
@@ -84,6 +84,7 @@ for line in lines:
 # À la fin, on exporte tous les résultats dans un fichier CSV
 with open("results.csv", mode="w", newline="") as file:
     writer = csv.writer(file)
+    writer.writerow(["Made By Omar El nmrawy"])
     writer.writerow(["IP", "Domaine", "ASN", "Country", "Malicious", "Suspicious", "Harmless", "Undetected", "Last Update"])
     writer.writerows(results)
 
