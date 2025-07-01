@@ -68,8 +68,8 @@ Ajoutez les IPs ou URLs dans un fichier iocs.txt, une par ligne.
 ```bash
 python scan.py
 ```
-📬 Contact
+## 📬 Contact
 
 Pour toute question ou suggestion :
 📧 omar.elnmrawy@hotmail.com
-<h2 align="center"> ⭐ Laisse une étoile si ce projet t’a aidé ou t’a plu ! ⭐ </h2> <p align="center"> <em>Projet personnel réalisé pour l'entraînement à la CTI & Threat Intelligence.</em> </p> ```
+<h2 align="center"> ⭐ Laisse une étoile si ce projet t’a aidé ou t’a plu ! ⭐ </h2> <p align="center"> <em>Projet personnel réalisé pour l'entraînement à la CTI & Threat Intelligence.</em> </p>
